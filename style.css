@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Sono', sans-serif;
+    display: flex;
+    background-image: url('https://images.unsplash.com/photo-1516912481808-3406841bd33c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=444&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: slategray;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* max-width: 400px; */
+}
+.container{
+    padding: 2em;
+    background-color: rgba(245, 245, 245, 0.671);
+    height: 60%;
+    width: 100%;
+    max-width: 500px;
+    flex-wrap:wrap;
+    border-radius: 30px;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button.btn {
+    margin: 0.5em;
+    border-radius: 50%;
+    height: 37px;
+    width: 37px;
+    border: none;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 18px;
+    font-family: inherit;
+    font-size: 100%;
+    width: calc(100% - 80px);
+    
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.493);
+    color: antiquewhite;
+    cursor: pointer;
+}
+
+.heading-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.city-name{
+    font-size: 2.2em;
+
+}
+
+.card{
+    font-size: 1.8em;
+}
+.temp{
+    margin: 0.4em 0em;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    margin-left: 10px;
+}
+.description{
+    text-transform: capitalize;
+}
+
+/* Classes that will be removed after search*/
+
+.display{
+    visibility: hidden;
+}
+.city{
+    margin-top: 0px;
+    height: 0%;
+    visibility: hidden;
+}
+.cont{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input.bar {
+    border: none;
+    outline: none;
+    padding: 0.8em 10em;
+    border-radius: 25px;
+    font-family: inherit;
+    font-size: 100%;
+    width: calc(100% - 350px);    
+}
